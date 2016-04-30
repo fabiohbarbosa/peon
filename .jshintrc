@@ -1,0 +1,21 @@
+{
+  "strict": false,
+  "browser": true,
+  "devel": true,
+  "bitwise": false,
+  "curly": true,
+  "eqeqeq": true,
+  "latedef": false,
+  "noarg": true,
+  "undef": true,
+  "unused": false,
+  "validthis": true,
+  "jasmine": true,
+  "globals": {
+    "_": false,
+    "__dirname": false,
+    "module": false,
+    "exports": false,
+    "require": false
+  }
+}
