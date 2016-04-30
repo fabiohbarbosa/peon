@@ -1,5 +1,4 @@
-module.exports = function(app) {
-    var express = require('express');
+module.exports = function(app, express) {
     var apiRoutes = express.Router();
 
     var glob = require('glob');
