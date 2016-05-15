@@ -1,0 +1,6 @@
+(function(angular) {
+  var app = angular.module("<%- moduleName %>"<% if (deps) { %>, <%= JSON.stringify(deps) %><% } %>);
+  <% constants.forEach(function(constant) { %>
+    app.constant("<%- constant.name %>", <%= constant.value %>);<% }) %>
+
+})(angular);

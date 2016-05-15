@@ -1,0 +1,22 @@
+{
+  "name": "peon",
+  "description": "",
+  "main": "public/index.js",
+  "authors": [
+    "Fabio H. G. Barbosa <fabiohbarbosa@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/fabiohbarbosa/peon",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5"
+  }
+}

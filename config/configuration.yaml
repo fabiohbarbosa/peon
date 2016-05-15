@@ -1,0 +1,11 @@
+project:
+  name: peon
+
+server:
+  port: 5000
+  npmDir: node_modules/
+
+frontEnd:
+  port: 3000
+  baseDir: 'public/'
+  bowerDir: 'public/bower_components/'

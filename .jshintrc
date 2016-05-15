@@ -7,15 +7,13 @@
   "eqeqeq": true,
   "latedef": false,
   "noarg": true,
+  "node": true,
   "undef": true,
   "unused": false,
   "validthis": true,
   "jasmine": true,
   "globals": {
     "_": false,
-    "__dirname": false,
-    "module": false,
-    "exports": false,
-    "require": false
+    "angular": false
   }
 }
