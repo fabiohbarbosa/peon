@@ -37,7 +37,11 @@ gulp.task('browserSync', function() {
   });
 });
 
-gulp.task('watch', ['watch:html', 'watch:css', 'watch:js']);
+gulp.task('watch', ['watch:index', 'watch:html', 'watch:css', 'watch:js']);
+
+gulp.task('watch:index', function() {
+  watchFile('config/templates/index.html.tpl', ['inject', 'browserSyncReload']);
+});
 
 gulp.task('watch:js', function() {
   watchFile(frontEnd.baseDir + '**/*.js', ['inject', 'common:jshint']);

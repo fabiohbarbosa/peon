@@ -17,6 +17,16 @@
   ],
   "dependencies": {
     "angular": "^1.5.5",
-    "angular-route": "^1.5.5"
+    "angular-route": "^1.5.5",
+    "bootstrap": "^3.3.6",
+    "angular-ui-mask": "^1.8.3"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
   }
 }

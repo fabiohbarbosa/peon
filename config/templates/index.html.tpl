@@ -15,7 +15,6 @@
   <!-- endinject -->
 
   <div class="content">
-    <h1> Teste </h1>
     <div class="container">
       <div class="main">
         <ng-view></ng-view>
